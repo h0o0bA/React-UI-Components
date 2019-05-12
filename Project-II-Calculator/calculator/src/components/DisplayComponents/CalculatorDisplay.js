@@ -3,7 +3,7 @@ import './Display.css';
 
 const DisplayScreen = () => {
   return (
-    <div className="display">Initial</div>
+    <div className="display">0</div>
   )
 }
 
