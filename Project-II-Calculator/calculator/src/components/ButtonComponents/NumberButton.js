@@ -1,10 +1,9 @@
 import React from 'react';
-import './Display.css';
+import './Button.css';
 
-const DisplayScreen = () => {
-  return (
-    <div className="display">0</div>
-  )
+
+const NumberButton = props => {
+  return <button className={props.buttonStyle}>{props.text}</button>
 }
 
-export default DisplayScreen;
+export default NumberButton;
